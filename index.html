@@ -16,11 +16,11 @@
 
                     <nav class="header__nav">
                         <ul class="header__list">
-                            <li><a class="header__link" href="#">home</a></li>
-                            <li><a class="header__link" href="#">about ME</a></li>
-                            <li><a class="header__link" href="#">services</a></li>
-                            <li><a class="header__link" href="#">MY work</a></li>
-                            <li><a class="header__link" href="#">contact ME</a></li>
+                            <li><a class="header__link" href="#home">home</a></li>
+                            <li><a class="header__link" href="#about">about ME</a></li>
+                            <li><a class="header__link" href="#services">services</a></li>
+                            <li><a class="header__link" href="#work">MY work</a></li>
+                            <li><a class="header__link" href="#contact">contact ME</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -28,7 +28,7 @@
         </header>
 
         <main class="main">
-            <!-- <section class="home-block">
+            <section class="home-block" id="home">
                 <div class="content">
                     <div class="home-content">
                         <div class="home-text">
@@ -44,7 +44,7 @@
                 </div>
             </section>
 
-            <section class="about-block">
+            <section class="about-block" id="about">
                 <div class="content">
                     <div class="about-content">
                         <div class="about-block-text text">
@@ -90,7 +90,7 @@
                 </div>
             </section>
 
-            <section class="services-block">
+            <section class="services-block" id="services">
                 <div class="content">
                     <div class="services-content">
                         <div class="services-block-text text">
@@ -136,7 +136,7 @@
                 </div>
             </section>
 
-            <section class="work-block">
+            <section class="work-block" id="work">
                 <div class="work-content">
                     <div class="work-block-text text">
                         <h2 class="work-block__title title">MY WORK</h2>
@@ -161,30 +161,30 @@
                         <div class="work-block-photo work-block-photo_woman"></div>
                     </div>
                 </div>
-            </section> -->
+            </section>
 
-            <section class="contact-block">
+            <section class="contact-block" id="contact">
                 <div class="contact-content">
-                    <div class="work-block-text text">
+                    <div class="contact-block-text text">
                         <div class="content">
-                            <h2 class="work-block__title title">CONTACT ME</h2>
-                            <p class="work-block__subtitle subtitle">~~~~~~~~ :: ~~~~~~~~</p>
-                            <p class="work-block__paragraph paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h2 class="contact-block__title title">CONTACT ME</h2>
+                            <p class="contact-block__subtitle subtitle">~~~~~~~~ :: ~~~~~~~~</p>
+                            <p class="contact-block__paragraph paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
 
                     <form class="form" action="#">
                         <div class="form-content content">
-                            <input class="form__input" type="text" id="userName" placeholder="NAME">
+                            <input class="form__input form__input_name" type="text" id="userName" placeholder="NAME">
                             <label for="userName"></label>
 
-                            <input class="form__input" type="email" id="userEmail" placeholder="EMAIL ADDRES">
+                            <input class="form__input form__input_email" type="email" id="userEmail" placeholder="EMAIL ADDRES">
                             <label for="userEmail"></label>
 
-                            <input class="form__input" type="text" id="userMessage" placeholder="MESSAGE">
+                            <input class="form__input form__input_message" type="text" id="userMessage" placeholder="MESSAGE">
                             <label for="userMessage"></label>
 
-                            <input class="form__input" type="text">
+                            <input class="form__input form__input_message" type="text">
                             <label for="userMessage"></label>
 
                             <button type="submit" class="form__button button">submit</button>
