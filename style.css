@@ -90,7 +90,7 @@ body {
 }
 
 .header__logo:hover {
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
 }
 
 .header__logo, .header__link {
@@ -269,6 +269,9 @@ body {
     color: #7e8287;
 }
 
+/* .block-item:hover {
+} */
+
 .about-block-item__title {
     margin: 20px 0 20px 0;
 }
@@ -320,7 +323,8 @@ body {
 .services-block-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    row-gap: 40px;
+    column-gap: 115px;
 }
 
 .services-block-item {
@@ -498,6 +502,10 @@ body {
     color: #ffffff;
     text-align: center;
     font-size: 1rem;
+}
+
+.form__input:focus {
+    border-bottom: 1px solid #ffffff;
 }
 
 .form__input_name, .form__input_email {
