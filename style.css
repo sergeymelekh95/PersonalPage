@@ -525,7 +525,7 @@ body {
         bottom: 100%;
         overflow: hidden;
         width: 100%;
-        background-color: rgba(2,145,140,0.7);
+        background-color: rgba(2,145,140,0.9);
     }
 
     .header__list {
@@ -571,5 +571,11 @@ body {
 @media only screen and (max-width : 533px)  {
     .about-content {
         gap: 0;
+    }
+}
+
+@media only screen and (max-width : 360px)  {
+    .home-content {
+        padding: 60px 0 60px 0;
     }
 }
