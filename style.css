@@ -432,6 +432,10 @@ body {
     font-size: 1rem;
 }
 
+.form__input::placeholder {
+    text-transform: uppercase;
+}
+
 .form__input:focus {
     border-bottom: 1px solid #ffffff;
 }
